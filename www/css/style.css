@@ -112,6 +112,20 @@ h1 {
     max-width: 500px;
 }
 
+.box-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 305px;
+}
+
+.logo {
+    display: block;
+    background-image: url(../img/logo.png);
+    width: 181px;
+    height: 49px;
+}
+
 .nav {
     font-size: 12px;
     font-weight: 700;
@@ -128,11 +142,23 @@ h1 {
 }
 
 .nav>li {
-    padding: 0 15px;
+    padding: 0 20px;
 }
 
 .nav-item {
     color: #6e7ea9;
+    letter-spacing: 2px;
+}
+
+.screen-img {
+    display: block;
+    background-image: url(../img/header-screen.png);
+    background-repeat: no-repeat;
+    width: 603px;
+    height: 540px;
+    position: absolute;
+    right: 0;
+    top: 189px;
 }
 
 .btn-primary {
@@ -197,6 +223,45 @@ h1 {
 
 .btn-group a+a {
     margin-left: 15px;
+}
+
+.list-company {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.list-company-item {
+    display: block;
+}
+
+.company-one {
+    background-image: url(../img/sponsor-1.png);
+    flex-basis: 215px;
+    height: 59px;
+}
+
+.company-two {
+    background-image: url(../img/sponsor-2.png);
+    flex-basis: 200px;
+    height: 69px;
+}
+
+.company-three {
+    background-image: url(../img/sponsor-3.png);
+    flex-basis: 201px;
+    height: 47px;
+}
+
+.company-four {
+    background-image: url(../img/sponsor-4.png);
+    flex-basis: 200px;
+    height: 69px;
 }
 
 .grid h2 {
@@ -287,6 +352,21 @@ h1 {
 
 /* Page */
 
+.page-header {
+    background-image: url(../img/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 53px 0 330px 0;
+    position: relative;
+}
+
+.page-company {
+    background-image: url(../img/bg-company.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 106px 0 99px;
+}
+
 .page-stat,
 .page-screen {
     background-color: #edf6ff;
@@ -303,4 +383,9 @@ h1 {
 
 .page-screen {
     padding: 116px 0 0 0;
+}
+
+.page-subscribe {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(10, 32, 144, 1) 0%, rgba(35, 119, 205, 1) 100%);
 }
