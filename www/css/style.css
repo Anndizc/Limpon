@@ -1285,14 +1285,18 @@
         }
         
         .social-link:hover svg,
+        .social-foursquare:hover svg path {
+            transition: 0.3s;
+            fill: #fff;
+        }
+        
+        .social-link:hover svg,
         .social-twitter:hover svg path {
             fill: #1085e4;
         }
-        
-        .social-foursquare svg>path {
-            /* transition: 0.3s; */
+        /* .social-foursquare svg>path {
             fill: #fff;
-        }
+        } */
         
         .footer {
             background-color: #003366;
